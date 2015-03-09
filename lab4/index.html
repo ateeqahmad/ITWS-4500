@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+<head>
+<title>Mason's TweetTicker</title>
+<meta charset="utf-8">
+
+<!-- fonts and my styles -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="./app.css">
+
+<!-- jquery mobile styles and js -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+  <div id="tagBox">
+  </div>
+
+<main id="tweetBox">
+
+</main>
+<div data-role="panel" data-display="overlay" id="left-panel" data-theme="b">
+    <h1>Settings...</h1>
+    <div class="ui-field-contain">
+      <label for="slider-1">Tag tick update speed (seconds):</label>
+      <input type="range" name="slider-1" id="slider-1" value="3" min="1" max="10">
+    </div>
+    <div class="ui-field-contain">
+      <label for="slider-2">Tweet tick update speed (seconds):</label>
+      <input type="range" name="slider-2" id="slider-2" value="3" min="1" max="10">
+    </div>
+    <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+</div><!-- /panel -->
+      <div data-role="header" data-theme="b">
+          <a href="#left-panel" data-theme="d" data-icon="gear" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Open left panel</a>
+      </div><!-- /header -->
+<script src="./l33t_tw33ts.js"></script>
+<script src="./app.js"></script>
+
+</body>
+</html>

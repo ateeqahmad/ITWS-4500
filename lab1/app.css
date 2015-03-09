@@ -1,0 +1,82 @@
+body {
+  background-color: #dedede;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#tagBox {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 4%;
+  width: 80%;
+  height: 10%;
+  overflow: hidden;
+}
+
+.tag {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  top: 0%;
+  font-size: .3em;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+}
+
+#tweetBox {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 15%;
+  width: 80%;
+  height: 81%;
+
+  overflow: hidden;
+}
+
+.tweet {
+  position: absolute;
+  height: 15%;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  font-size: .8em;
+  background-color: #FFFFFF;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.tweetPic {
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  left: 0%;
+  top: 0%;
+  background-color: green;
+  border-right: solid #b4b4b4 1px;
+  overflow-x: hidden;
+}
+
+.tweetText {
+  padding: 1%;
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  left: 16%;
+  right: 0%;
+  top: 0%;
+
+}
+
+.tweetUser {
+  width: 100%;
+  word-wrap: break-word;
+  font-size: .5em;
+}
