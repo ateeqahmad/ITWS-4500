@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Nifty Simple HTML Page Greeting Form</title>
+  <script src="./app.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./app.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <main>
+    <label for="text-1">Enter Name:</label><br>
+    <input type="text" name="query" id="nameIn" value="User">  
+    <button data-rel="greet" data-role="button" onClick="displayGreeting();">Greet</button>  
+
+    <p id="greetingOut"></p>      
+  </main>
+
+  <aside id="loading">
+    <img src='./spinner.gif'>
+  </aside>
+</body>
+
+</html>

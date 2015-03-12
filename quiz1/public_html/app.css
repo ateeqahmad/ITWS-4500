@@ -1,0 +1,28 @@
+/* this is all for fun :) */
+#loading {
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 999;
+  display: none;
+}
+
+#loading img{
+  image-rendering: optimizeSpeed;             /* MEH SMOOTHING, GIVE ME SPEED   */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+  width: 200px;
+  position: relative;
+  margin: auto;
+  top: 50vh;
+  left: 50vw;
+  margin-left: -100px;
+  margin-top: -150px;
+  z-index: 1000;
+}

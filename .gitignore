@@ -8,3 +8,10 @@
 *.rar
 *.tar
 *.zip
+
+# Lab Documents/Solutions #
+###########################
+*.doc
+*.docx
+*.pdf
+*.ppt
